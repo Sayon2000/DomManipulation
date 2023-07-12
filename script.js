@@ -14,3 +14,6 @@ for(let i=0;i<li.length;i++){
 
 document.getElementsByTagName('li')[4].innerText = "Item changed"
 // document.getElementsByClassName('list-group-item')[4]
+let ql = document.querySelectorAll('.list-group-item')
+ql[1].style.background = "green"
+ql[1].style.display ="none"
