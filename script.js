@@ -11,3 +11,6 @@ li[2].style.backgroundColor ="green"
 for(let i=0;i<li.length;i++){
     li[i].style.fontWeight ="bold"
 }
+
+document.getElementsByTagName('li')[4].innerText = "Item changed"
+// document.getElementsByClassName('list-group-item')[4]
